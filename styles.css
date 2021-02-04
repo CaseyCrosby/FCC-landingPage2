@@ -5,11 +5,13 @@ body {
 
 header {
     background-color: chocolate;
-    height: 200px;
+    height: 100px;
+    position: fixed;
+    position: relative;
    }
  
 #nav-bar {
-   position: relative;
+   position: absolute;
    
    
 }
