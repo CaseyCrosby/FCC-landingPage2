@@ -1,7 +1,19 @@
 body {
     box-sizing: border-box;
-}
+    margin: auto;
+} 
 
 header {
     background-color: chocolate;
+    height: 200px;
+   }
+ 
+#nav-bar {
+   position: relative;
+   
+   
+}
+
+img {
+    width: 100%;
 }
