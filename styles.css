@@ -1,6 +1,6 @@
 body {
-    box-sizing: border-box;
-    margin: 0 auto;
+    box-sizing: border-box; 
+    margin: 0 auto; 
    
 } 
 
@@ -8,6 +8,7 @@ body {
     background-color: #B00E0A;
     height: 100px;
     width: 100%;
+    position: relative;
     position: fixed;
     
 }
@@ -64,6 +65,7 @@ nav a {
 #video {
     flex: 1 1 auto;
     margin: 200px;
+    margin-top: 0px;
     padding: 0;
     width: 65vw !important;
     height: 80vh  !important; 
@@ -74,7 +76,9 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    padding: 200px;
+    padding-bottom: 50px;
+    margin: 0;
 }
 
 #form-bottom {
