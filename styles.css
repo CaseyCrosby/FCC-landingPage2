@@ -112,8 +112,13 @@ h2 {
     letter-spacing: 1px;
     border-color: black;
     border-radius: 5px;
+    background-color: goldenrod;
+}
 
-    background-color:darkgoldenrod;
+#submit:hover {
+    background-color:  #B00E0A;
+    color: darkgray;
+    transition: ease 200ms;
 }
 
 #footer {
