@@ -53,15 +53,14 @@ nav a {
 }
 
 @media screen and (max-width: 900px) {
-nav li {
-    margin-left: 15px;
+nav li { margin-left: 15px;}
 }
 
-#About-Us {
-    margin: 10px;
+@media screen and (max-width: 900px) {
+#About-Us {text-align: none;}
 }
 
-}
+
 #header-img {
     width: 30%;
     height: 100px;  
