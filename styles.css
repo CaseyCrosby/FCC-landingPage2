@@ -66,7 +66,7 @@ nav a {font-size: 1em;}
 
 #About-Us {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5em;
     padding: 2em 10em;
     margin: 0 auto;
     line-height: 1.5em;
@@ -74,7 +74,7 @@ nav a {font-size: 1em;}
 }
 
 @media screen and (max-width: 900px) {
-    #About-Us {text-align: left; padding: 1em;}
+    #About-Us {text-align: left; padding: 1em; font-size: 1em;}
     #header-img {width: 50%;}
     }
     
