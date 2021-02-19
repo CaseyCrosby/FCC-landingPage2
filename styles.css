@@ -22,8 +22,7 @@ body {
 nav ul {
     margin: 0px;
     padding: 0px;
-    list-style: none;
-    
+    list-style: none;  
 }
  
 nav li {
@@ -41,7 +40,7 @@ nav a {
 }
    nav a:hover {
        color:black;
-       transition: ease-in-out 200ms;
+       transition: ease-in 200ms;
    }
 
  
@@ -55,7 +54,7 @@ nav a {
 @media screen and (max-width: 900px) {
 nav li {margin-left: 15px; }
 nav a {font-size: 1em;}
-#nav-bar {word-wrap: none;}
+#nav-bar {right: 50px; top: 57px;}
 }
 
 
@@ -75,10 +74,8 @@ nav a {font-size: 1em;}
 }
 
 @media screen and (max-width: 900px) {
-    #About-Us {
-        text-align: left;
-        padding: 1em;
-    }
+    #About-Us {text-align: left; padding: 1em;}
+    #header-img {width: 50%;}
     }
     
 
@@ -94,8 +91,8 @@ nav a {font-size: 1em;}
     margin: 200px;
     margin-top: 100px;
     padding: 0;
-    width: 65vw 
-    height: 80vh  
+    width: 65vw; 
+    height: 80vh;  
     box-shadow: 10px 10px 10px darkslategray;
 }
 
@@ -112,7 +109,7 @@ nav a {font-size: 1em;}
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px;
+    padding-top: 100px; 
     padding-bottom: 30px;
     margin: 0;
     background-color: black;
@@ -158,11 +155,15 @@ h2 {
     transition: ease 200ms;
 }
 
+@media screen and (max-width: 900px) {
+    h2 {padding: 1em; font-size: 1.1em;}
+}
+
 #footer {
     margin: auto;
     padding-top: 10px;
     text-align: center;
-    height: 100px;
+    height: 30%;
     width: 100%;
     background-color: #B00E0A;
 }
