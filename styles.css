@@ -53,12 +53,11 @@ nav a {
 }
 
 @media screen and (max-width: 900px) {
-nav li { margin-left: 15px;}
+nav li {margin-left: 15px; }
+nav a {font-size: 1em;}
+#nav-bar {word-wrap: none;}
 }
 
-@media screen and (max-width: 900px) {
-#About-Us {text-align: none;}
-}
 
 
 #header-img {
@@ -75,13 +74,19 @@ nav li { margin-left: 15px;}
     color: floralwhite;
 }
 
+@media screen and (max-width: 900px) {
+    #About-Us {
+        text-align: left;
+        padding: 1em;
+    }
+    }
+    
+
 .iframe-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
-   
 }
 
 #video {
@@ -89,12 +94,19 @@ nav li { margin-left: 15px;}
     margin: 200px;
     margin-top: 100px;
     padding: 0;
-    width: 65vw !important;
-    height: 80vh  !important; 
+    width: 65vw 
+    height: 80vh  
     box-shadow: 10px 10px 10px darkslategray;
-   
-    
 }
+
+@media screen and (max-width: 900px) {
+   #video {
+    margin: 1em;
+    width: 85vw;
+    height: 50vh;
+}
+}
+
 #form { 
     display: flex;
     justify-content: center;
