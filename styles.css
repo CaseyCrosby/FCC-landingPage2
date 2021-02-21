@@ -156,7 +156,7 @@ h2 {
 #submit:hover, #submit2:hover {
     background-color:  #B00E0A;
     color: darkgray;
-    transition: ease 200ms;
+    transition: ease-in 200ms;
 }
 
 @media screen and (max-width: 900px) {
