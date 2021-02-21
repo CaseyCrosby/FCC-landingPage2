@@ -131,14 +131,14 @@ h2 {
     margin-top: 10px;
 }
 
-#email {
+#email, #email2 {
     margin: 10px;
     width: 23em;
     height: 1.5em;
     border-radius: 5px;
 }
 
-#submit {
+#submit, #submit2 {
     width: 10em;
     height: 2em;
     font-size: 1.2em;
@@ -149,7 +149,7 @@ h2 {
     background-color: goldenrod;
 }
 
-#submit:hover {
+#submit:hover, #submit2:hover {
     background-color:  #B00E0A;
     color: darkgray;
     transition: ease 200ms;
